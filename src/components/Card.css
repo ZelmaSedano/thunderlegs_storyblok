@@ -1,0 +1,25 @@
+.card {
+    /* makes the background fit the actual content, not span the entire page */
+    display: inline-block;
+    background-color: #f7f1b5;
+    border-radius: 5%;
+    margin: 0 auto;
+    /* somehow centers all the content, even the image */
+    text-align: center;
+    padding: 20px;
+}
+
+.card-title {
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+.card-image {
+    height: 200px;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.card-content {
+    margin-top: 10px;
+}
